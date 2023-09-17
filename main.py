@@ -4,7 +4,7 @@ from telebot import types
 import webbrowser
 
 
-bot = telebot.TeleBot('6383276353:AAE09Od66pMkM2CzM3RXVsIRUwaIIlrecdU')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(content_types=['photo'])
